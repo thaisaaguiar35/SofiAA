@@ -4,7 +4,7 @@ from views import cadastro, conteudo, dashboard
 
 # Inicializa banco
 init_db()
-
+st.title("🥷 SofIA")
 # Menu
 st.sidebar.title("📌 Menu")
 opcao = st.sidebar.radio("Navegação", ["Cadastro", "Conteúdo", "Dashboard","Documentos"])
