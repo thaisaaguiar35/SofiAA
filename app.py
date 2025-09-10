@@ -7,7 +7,7 @@ init_db()
 st.title("🥷 SofIA")
 # Menu
 st.sidebar.title("📌 Menu")
-opcao = st.sidebar.radio("Navegação", ["Cadastro", "Conteúdo", "Dashboard","Documentos"])
+opcao = st.sidebar.radio("Navegação", ["Cadastro","Dashboard", "Conteúdo","Documentos"])
 
 if opcao == "Cadastro":
     cadastro.show()

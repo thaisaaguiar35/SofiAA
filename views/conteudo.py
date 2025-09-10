@@ -18,7 +18,7 @@ def show():
     # Escolha do modelo
     modelo = st.selectbox(
         "Escolha o modelo",
-        ["deepseek-r1-distill-llama-70b", "llama3-70b-8192", "llama3-8b-8192"]
+        ["deepseek-r1-distill-llama-70b", "llama3-70b-8192", "xxxxxxxx"]
     )
 
     with st.form("conteudo_form"):
