@@ -16,3 +16,4 @@
 
 # pip install langchain-groq
 
+# pip freeze > requirements.txt
